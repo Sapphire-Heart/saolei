@@ -1,0 +1,97 @@
+body,p,div{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url(../imgs/827513.jpg) repeat -300px 0;
+	background-size: 71%;
+}
+.box{
+	position: relative;
+	top:20px;
+	left:0;
+	height:600px;
+	width:600px;
+	margin:0 auto;
+}
+.tan{
+	width:600px;
+	height:200px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-top:-110px;
+	margin-left: -300px;
+	z-index: 99;
+	background:rgba(255,255,255,0.8);
+	text-align: center;
+	transition: transform .6s cubic-bezier(0.18, 0.89, 0.31, 1.01) 1s;
+	transform:translateY(-400px);
+
+}
+.tan p:nth-child(1){
+	color:#78909c;
+	margin-top: 30px;
+	font-size: 50px;
+}
+.tan p:nth-child(2){
+	display: inline-block;
+	border:3px solid black;
+	font-size: 30px;
+	margin-top: 30px;
+	padding:3px;
+	cursor: pointer;
+}
+.tan p:nth-child(2):hover{
+	border:3px solid #00FFDC;
+	background:#00FFDC;
+	color:#fff;
+}
+.block{
+	height:26px;
+	width:26px;
+	border-top:2px solid #fff;
+	border-left:2px solid #fff;
+	border-right:2px solid #263238;
+	border-bottom:2px solid #263238;
+	float: left;
+	font-size: 20px;
+	background: #90a4ae;
+	text-align: center;
+	line-height: 26px;
+	color: #00FFDC;
+	opacity: 0.8;
+}
+.black{
+	background:url(../imgs/bom.jpg) no-repeat;
+	background-size: 26px 26px;
+	width:26px;
+	height: 26px;
+	animation: first 2s ease;
+	animation-iteration-count:2;
+	opacity: 1;
+}
+@keyframes first{
+	0,100%{
+		transform: scale(1,1);
+	}
+	50%{
+		transform: scale(1.4,1.4);
+	}
+}
+.blue-grey1{
+	background: #78909c;
+	opacity: 0.8;
+}
+.blue-grey{
+	background: #607d8b;
+	opacity: 0.8;
+}
+.blue-grey2{
+	background: #90a4ae;
+	opacity: 0.8;
+}
+.blue-grey3{
+	background: #b0bec5;
+	opacity: 0.8;	
+}
